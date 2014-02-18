@@ -1,0 +1,21 @@
+{
+  "name": "restify-routes",
+  "version": "0.0.1",
+  "description": "Auto load routes in node restify",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/aeh/restify-routes.git"
+  },
+  "author": "Andrew Harris",
+  "license": "BSD",
+  "dependencies": {
+    "glob": "~3.2.8",
+    "lingo": "0.0.5"
+  },
+  "devDependencies": {
+    "gulp": "~3.5.2",
+    "gulp-jshint": "~1.4.2",
+    "jshint-stylish": "~0.1.5"
+  }
+}
