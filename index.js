@@ -15,7 +15,7 @@ var actions = {
 module.exports = function(server, options) {
   options = options || {};
   options.files = options.files || '**/*.js';
-  options.cwd = options.cwd || './routes';
+  options.cwd = options.cwd || process.cwd() + '/routes';
 
   function buildPath(path, singular) {
     return path.split('/').map(function(node, i, all) {
